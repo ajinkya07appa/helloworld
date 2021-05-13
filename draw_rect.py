@@ -58,7 +58,7 @@ def draw_rect_table(path,table_co_ordinates):
         image = cv2.rectangle(image, start_point, end_point, color, thickness)
         
     return image
-"""
+
 def draw_rect_key_value():
     image = cv2.imread(r'C:\Users\Ajinkya\Desktop\images\1st qtr 2019-1.jpeg')
     window_name='Image'
@@ -86,4 +86,4 @@ def draw_rect_key_value():
 if __name__ == "__main__":
     draw_rect()    
     
-    """
+   
